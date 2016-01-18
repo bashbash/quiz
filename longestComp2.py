@@ -2,7 +2,7 @@
 
 list2 =[]
 
-with open('wordlist.txt') as f:
+with open('word.list.txt') as f:
     for line in f:
     	line = line.strip('\n')
     	list2.append(line)
